@@ -1,2 +1,5 @@
 language: cpp
 script: make
+before_install:
+- openssl aes-256-cbc -K $encrypted_5a3453517de6_key -iv $encrypted_5a3453517de6_iv
+  -in cplusplus_rsa.enc -out ~\/cplusplus_rsa -d
