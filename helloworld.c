@@ -1,7 +1,14 @@
-#include<stdio.h>
+#include <iostream>
 
-int main(void)
-{
- printf("Hello! World\n");
- return 0;
-}
+using namespace std;
+
+int main(){
+    cout << "Content-type: text/html" << endl << endl;
+    cout << "<html>" << endl;
+    cout << "   <body>" << endl;
+    cout << "       Hello World!" << endl;
+    cout << "   </body>" << endl;
+    cout << "</html>" << endl;
+
+    return 0;
+    }
