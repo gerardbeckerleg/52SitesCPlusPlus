@@ -21,9 +21,7 @@ endNumberLocation = data.find("&button");
 
 cout << "Content-Type: text/html\n\n";
 cout << "<?xml version = \"1.0\"?>"
-<< "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" "
-<< "\"[url="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\%22>%22;"]http://www.w3.org/TR...html11.dtd\">";[/url]
-cout << "<html xmlns = \"[url="http://www.w3.org/1999/xhtml\%22>"]http://www.w3.org/19.../1999/xhtml\">"[/url]
+<< "<!DOCTYPE html >"
 << "<head><title>Welcome message</title></head>"
 << "<body>"
 << "<h1>Greetings!</h1>"
