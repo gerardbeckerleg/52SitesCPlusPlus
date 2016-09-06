@@ -1,2 +1,2 @@
-helloworld.out: helloworld.c
-	gcc helloworld.c -o helloworld.out
+helloworld.cgi: helloworld.c
+	gcc -o helloworld.cgi helloworld.c
