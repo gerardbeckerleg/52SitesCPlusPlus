@@ -1,2 +1,2 @@
-helloworld.cgi: helloworld.c
-	gcc -o helloworld.cgi helloworld.c
+helloworld.cgi: helloworld.cpp
+	g++ -o helloworld.cgi helloworld.cpp
